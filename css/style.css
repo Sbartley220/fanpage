@@ -4,7 +4,8 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: black;
+    font-family: Charmonman;
 }
 a {
     text-decoration: none;
@@ -16,4 +17,26 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.header{
+display:flex;
+ justify-content: center ;
+  text-shadow: 6px 3px 6px red;
+  font-size: 100px;
+}
+
+.navbar{
+display:flex;
+ justify-content: space-around ;
+  text-shadow: 2px 2px 5px blue;
+  font-size:75px;
+}
+
+#headImg{
+    width:100%;
+}
+
+.leftPane{
+color:white;
 }
